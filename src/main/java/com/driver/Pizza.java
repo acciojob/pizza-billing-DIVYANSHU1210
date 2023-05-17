@@ -39,7 +39,7 @@ public class Pizza {
         }
         if(opted_extra_toppings){
             this.price += isVeg ? veg_toppings_price:nonveg_toppings_price;
-            mytopping_price = isveg ? veg_toppings_price:nonveg_toppings_price;
+            mytopping_price = isVeg ? veg_toppings_price:nonveg_toppings_price;
         }
         if(opted_takeaway){
             this.price += bag_price;
