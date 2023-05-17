@@ -1,4 +1,4 @@
-package com.example.assignment3pizzabilling;
+package com.driver;
 
 public class Pizza {
     private int price;
