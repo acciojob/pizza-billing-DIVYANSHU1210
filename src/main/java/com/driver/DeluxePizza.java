@@ -1,4 +1,4 @@
-package com.example.assignment3pizzabilling;
+package com.driver;
 
 public class DeluxePizza extends Pizza {
 
@@ -8,6 +8,4 @@ public class DeluxePizza extends Pizza {
         super.addExtraToppings();
         // your code goes here
     }
-
-
 }

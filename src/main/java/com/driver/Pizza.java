@@ -1,4 +1,4 @@
-package com.example.assignment3pizzabilling;
+package com.driver;
 
 public class Pizza {
     private int price;
@@ -83,7 +83,7 @@ public class Pizza {
         }
 
         if(opted_extra_toppings){
-            bill = bill + "Extra toppings Added: " + this.mytopping_price + "\n";
+            bill = bill + "Extra Toppings Added: " + this.mytopping_price + "\n";
         }
 
         if(opted_takeaway){
