@@ -90,7 +90,7 @@ public class Pizza {
             bill  = bill + "Paperbag Added: " + this.bag_price + "\n";
         }
 
-        bill +=  "Total Price: " + this.price;
+        bill +=  "Total Price: " + this.price + "\n";
         return this.bill;
     }
 }
