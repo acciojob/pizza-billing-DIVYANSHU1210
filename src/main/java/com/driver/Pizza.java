@@ -44,6 +44,7 @@ public class Pizza {
         if(opted_takeaway){
             this.price += bag_price;
         }
+        return this.price;
 
     }
 
